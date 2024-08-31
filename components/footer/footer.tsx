@@ -1,10 +1,11 @@
 import { FaXTwitter } from "react-icons/fa6";
+import { FaGlobeAmericas } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="h-full w-full">
       <div
-        className="flex flex-row w-full bg-green-500	items-center"
+        className="flex flex-row w-full bg-green-500	items-center list-none"
         style={{ height: 96 }}
       >
         <li>
@@ -86,7 +87,7 @@ const Footer = () => {
           </g>
         </svg>
         <div className="flex flex-column w-full h-full bg-red-500	">
-          <ul className="flex flex-column gap-8 bg-pink-500">
+          <ul className="flex flex-column bg-pink-500 justify-center auto">
             <ul>
               <li className="bg-blue-500">
                 <a href="" className="text-white text-2xl">
@@ -182,22 +183,201 @@ const Footer = () => {
             </ul>
             <ul>
               <li>
-                <a href="">TESTE</a>
+                <ul>
+                  <li>
+                    <a href="" className="text-white text-2xl">
+                      A Rolex e os esportes
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">Tênis</a>
+                  </li>
+                  <li>
+                    <a href="">Golfe</a>
+                  </li>
+                  <li>
+                    <a href="">Iatismo</a>
+                  </li>
+                  <li>
+                    <a href="">Automobilismo</a>
+                  </li>
+                  <li>
+                    <a href="">Hipismo</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <a href="">TESTE2</a>
-              </li>
-              <li>
-                <a href="">TESTE3</a>
-              </li>
-              <li>
-                <a href="">TESTE4</a>
-              </li>
-              <li>
-                <a href="">TESTE5</a>
+                <ul className="bg-green-500">
+                  <li>
+                    <a href="" className="text-white text-2xl">
+                      Iniciativas Perpetual
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">Iniciativa Perpetual Planet</a>
+                  </li>
+                  <li>
+                    <a href="">Iniciativa Perpetual Arts</a>
+                  </li>
+                </ul>
+                <ul className="bg-orange-500">
+                  <li>
+                    <a href="" className="text-white text-2xl">
+                      Sobre a Rolex
+                    </a>
+                  </li>
+                  <li>
+                    <a>Desenvolvimento sustentável</a>
+                  </li>
+                  <li>
+                    <a>Por trás da coroa</a>
+                  </li>
+                  <li>
+                    <a>História</a>
+                  </li>
+                </ul>
+                <ul className="bg-red-500">
+                  <li>
+                    <a href="" className="text-white text-2xl">
+                      A compra de um Rolex
+                    </a>
+                  </li>
+                  <li>
+                    <a>Distribuidores oficiais</a>
+                  </li>
+                  <li>
+                    <a>A compra de um Rolex</a>
+                  </li>
+                  <li>
+                    <a>Rolex Certified Pre-Owned</a>
+                  </li>
+                </ul>
+                <ul className="bg-blue-500">
+                  <li>
+                    <a href="" className="text-white text-2xl">
+                      Cuidado e manutenção
+                    </a>
+                  </li>
+                  <li>
+                    <a>Centros de serviço</a>
+                  </li>
+                  <li>
+                    <a>Cuidado e manutenção</a>
+                  </li>
+                </ul>
               </li>
             </ul>
+            <ul className="bg-violet-500">
+              <li>
+                <li>
+                  <a href="" className="text-white text-2xl">
+                    Serviços
+                  </a>
+                </li>
+                <li>
+                  <a href="">Perguntas frequentes</a>
+                </li>
+                <li>
+                  <a href="">Seus favoritos</a>
+                </li>
+                <li>
+                  <a href="">Submeter uma denúncia</a>
+                </li>
+                <li>
+                  <a href="">Newsroom</a>
+                </li>
+              </li>
+              <ul className="bg-yellow-500">
+                <li>
+                  <a href="" className="text-white text-2xl">
+                    Aviso legal
+                  </a>
+                  <li>
+                    <a>Termos de uso</a>
+                  </li>
+                  <li>
+                    <a>Políticas de privacidade</a>
+                  </li>
+                  <li>
+                    <a>Cookies</a>
+                  </li>
+                </li>
+              </ul>
+              <ul className="bg-purple-500">
+                <li>
+                  <a href="" className="text-white text-2xl">
+                    Acessibilidade
+                  </a>
+                  <li>
+                    <a>Leia nossa declaração</a>
+                  </li>
+                </li>
+              </ul>
+              <ul className="bg-green-500">
+                <li>
+                  <a href="" className="text-white text-2xl">
+                    Suportes de comunicação
+                  </a>
+                  <li>
+                    <a>Wallpapers</a>
+                  </li>
+                  <li>
+                    <a>Catálogos</a>
+                  </li>
+                  <li>
+                    <a>Guias do usuários</a>
+                  </li>
+                </li>
+              </ul>
+              <ul className="bg-orange-500">
+                <li>
+                  <a href="" className="text-white text-2xl">
+                    Canais oficiais
+                  </a>
+                  <li>
+                    <a>Facebook</a>
+                  </li>
+                  <li>
+                    <a>Instagram</a>
+                  </li>
+                  <li>
+                    <a>X</a>
+                  </li>
+                  <li>
+                    <a>Youtube</a>
+                  </li>
+                  <li>
+                    <a>Pinterest</a>
+                  </li>
+                  <li>
+                    <a>Linkedin</a>
+                  </li>
+                  <li>
+                    <a>Youku</a>
+                  </li>
+                  <li>
+                    <a>Weibo</a>
+                  </li>
+                  <li>
+                    <a>WeChat</a>
+                  </li>
+                </li>
+              </ul>
+            </ul>
           </ul>
+        </div>
+        <div className="bg-gray-400 w-full flex flex-column justify-center items-center h-px"></div>
+        <div className="bg-gray-300">
+          <div className="h-20 flex flex-row items-center ml-10 justify-between">
+            <a className="flex flex-row items-center hover:cursor-pointer gap-2">
+              <FaGlobeAmericas size={20}/>
+              Idiomas
+            </a>
+            <div className="flex flex-row items-center justify-between w-80 mr-10">
+              <button className="">Reduzir movimento</button>
+              <button>Ativar contraste</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
