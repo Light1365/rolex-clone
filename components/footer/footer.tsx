@@ -154,7 +154,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </li>
-              <li className="bg-purple-500 gap-8">
+              <li className="bg-purple-500 gap-8 mt-4">
                 <a href="" className="text-white text-2xl">
                   {" "}
                   Coleção
@@ -204,7 +204,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </li>
-              <li className="bg-yellow-500 gap-8">
+              <li className="bg-yellow-500 gap-8 mt-4">
                 <a href="" className="text-white text-2xl">
                   A arte da relojoaria
                 </a>
@@ -249,7 +249,7 @@ const Footer = () => {
             </ul>
           </li>
           <li>
-            <ul className="bg-green-500">
+            <ul className="bg-green-500 mt-4">
               <li>
                 <a href="" className="text-white text-2xl">
                   Iniciativas Perpetual
@@ -262,7 +262,7 @@ const Footer = () => {
                 <a href="">Iniciativa Perpetual Arts</a>
               </li>
             </ul>
-            <ul className="bg-orange-500">
+            <ul className="bg-orange-500 mt-4">
               <li>
                 <a href="" className="text-white text-2xl">
                   Sobre a Rolex
@@ -278,7 +278,7 @@ const Footer = () => {
                 <a>História</a>
               </li>
             </ul>
-            <ul className="bg-red-500">
+            <ul className="bg-red-500 mt-4">
               <li>
                 <a href="" className="text-white text-2xl">
                   A compra de um Rolex
@@ -294,7 +294,7 @@ const Footer = () => {
                 <a>Rolex Certified Pre-Owned</a>
               </li>
             </ul>
-            <ul className="bg-blue-500">
+            <ul className="bg-blue-500 mt-4">
               <li>
                 <a href="" className="text-white text-2xl">
                   Cuidado e manutenção
@@ -329,7 +329,7 @@ const Footer = () => {
               <a href="">Newsroom</a>
             </li>
           </li>
-          <ul className="bg-yellow-500">
+          <ul className="bg-yellow-500 mt-4">
             <li>
               <a href="" className="text-white text-2xl">
                 Aviso legal
@@ -345,7 +345,7 @@ const Footer = () => {
               </li>
             </li>
           </ul>
-          <ul className="bg-purple-500">
+          <ul className="bg-purple-500 mt-4">
             <li>
               <a href="" className="text-white text-2xl">
                 Acessibilidade
@@ -355,7 +355,7 @@ const Footer = () => {
               </li>
             </li>
           </ul>
-          <ul className="bg-green-500">
+          <ul className="bg-green-500 mt-4">
             <li>
               <a href="" className="text-white text-2xl">
                 Suportes de comunicação
@@ -371,9 +371,9 @@ const Footer = () => {
               </li>
             </li>
           </ul>
-          <ul className="bg-orange-500">
+          <ul className="bg-orange-500 mt-4">
             <li>
-              <a href="" className="text-white text-2xl">
+              <a href="" className="text-white text-2xl font-helvetica">
                 Canais oficiais
               </a>
               <li>
