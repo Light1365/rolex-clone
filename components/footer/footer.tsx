@@ -105,7 +105,7 @@ const Footer = () => {
           </span>
         </li>
       </div>
-      <div className="grid grid-cols-4 gap-4 pt-14 pb-11 pr-11 pl-16">
+      <div className="grid grid-cols-4 gap-4 pt-14 pb-11 p-36 pl-16">
         <section className="w-full h-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
