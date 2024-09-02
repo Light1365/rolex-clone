@@ -30,3 +30,12 @@ body {
 .header {
   background: linear-gradient(270deg, #187048, #0b3f28);
 }
+
+@font-face {
+  font-family: HelveticaNow;
+  src: url("/fonts/helveticanowtext-black-demo.ttf");
+}
+
+.text-base:hover {
+  color: #006039;
+}

@@ -5,17 +5,17 @@ const Footer = () => {
   return (
     <div className="h-full w-full">
       <div
-        className="flex flex-row w-full bg-green-500	items-center list-none"
+        className="flex flex-row w-full bg-white items-center list-none border-t-2"
         style={{ height: 96 }}
       >
         <li>
-          <span className="flex flex-row gap-5 text-white bg-yellow-500 ml-16">
+          <span className="flex flex-row gap-5 text-black bg-yellow-500 ml-16 font-bold text-sm ml-24">
             Compartilhar
-            <button className="bg-red-500 opacity-50 hover:opacity-100">
+            <button className="twitter">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -24,11 +24,11 @@ const Footer = () => {
                 <path d="M8.9,6.4l5.4-6.3H13L8.3,5.5L4.6,0.1H0.2l5.7,8.3l-5.7,6.6h1.3l5-5.8l4,5.8h4.3L8.9,6.4L8.9,6.4z M7.1,8.4L6.5,7.6L2,1h2l3.7,5.3l0.6,0.8L13,14h-2L7.1,8.4L7.1,8.4z"></path>
               </svg>
             </button>
-            <button className="bg-green-500">
+            <button className="facebook">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -37,11 +37,11 @@ const Footer = () => {
                 <path d="m11.5 0v2.25h-2.93c-.31 0-.57.32-.57.63v1.62h3.25l-.61 2.25h-2.64v8.25h-2.25v-8.25h-2.25v-2.25h2.25v-1.75c0-1.59 1.17-2.75 2.75-2.75z"></path>
               </svg>
             </button>
-            <button className="bg-blue-500">
+            <button className="pinterest">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -50,11 +50,11 @@ const Footer = () => {
                 <path d="m13.5 5.34c0 3.18-2.04 5.75-4.87 5.75-.95 0-1.85-.49-2.15-1.06 0 0-.47 1.76-.59 2.2-.19.71-.65 1.57-1.02 2.18-.03.05-.06.11-.1.16-.02.03-.04.05-.05.08-.12.15-.25.29-.39.35 0 0-.16-.13-.25-.58 0-.03-.02-.07-.02-.1-.01-.09-.02-.19-.03-.3 0 0 0 0 0-.01-.06-.7-.08-1.58.07-2.24.17-.72 1.1-4.59 1.1-4.59s-.27-.56-.27-1.38c0-1.29.76-2.24 1.7-2.24.8 0 1.19.59 1.19 1.3 0 .79-.51 1.98-.78 3.08-.22.92.47 1.67 1.39 1.67 1.67 0 2.95-1.73 2.95-4.23 0-2.21-1.62-3.76-3.92-3.76-2.67 0-4.24 1.97-4.24 4.01 0 .79.31 1.65.7 2.11.07.09.08.17.06.26-.07.29-.23.92-.26 1.05-.04.17-.13.2-.31.12-1.18-.54-1.91-2.22-1.91-3.58 0-2.91 2.15-5.59 6.21-5.59 3.26 0 5.79 2.28 5.79 5.34z"></path>
               </svg>
             </button>
-            <button className="bg-yellow-500">
+            <button className="linkedin">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -63,11 +63,11 @@ const Footer = () => {
                 <path d="m15 8.91v5.74h-3.1v-5.36c0-1.34-.47-2.26-1.6-2.26-.86 0-1.39.62-1.62 1.22-.07.21-.11.51-.11.81v5.59h-3.1s.04-9.05 0-10h3.1v1.41c0 .01.01.01 0 .01v-.01c.48-.68 1.17-1.66 2.83-1.66 2.05 0 3.6 1.43 3.6 4.51zm-13.32-8.55c-1.02 0-1.68.72-1.68 1.66 0 .93.64 1.67 1.64 1.67h.02c1.03 0 1.68-.74 1.68-1.67-.03-.94-.65-1.66-1.66-1.66zm-1.44 14.28h2.86v-10h-2.86z"></path>
               </svg>
             </button>
-            <button className="bg-pink-500">
+            <button className="weibo">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -76,11 +76,11 @@ const Footer = () => {
                 <path d="m11.07 7.59c-.25-.09-.33-.09-.25-.44.25-.62.25-1.24 0-1.59-.49-.71-1.8-.71-3.28 0 0 0-.49.27-.33-.18.25-.8.16-1.51-.16-1.86-.82-.89-2.95 0-4.84 2.04-1.39 1.5-2.21 3.09-2.21 4.51 0 2.66 3.11 4.43 6.15 4.43 4.02 0 6.64-2.75 6.64-4.7.08-1.24-.9-1.95-1.72-2.21zm-4.84 5.67c-2.46.27-4.51-.97-4.67-2.66-.17-1.77 1.64-3.37 4.1-3.63 2.46-.27 4.51.89 4.67 2.66s-1.64 3.36-4.1 3.63zm8.77-7.89c0-2.66-2.05-4.87-4.51-4.87-.33 0-.49.27-.49.53 0 .35.25.53.49.53 1.89 0 3.44 1.68 3.44 3.72 0 .35.25.53.49.53.42.18.58-.08.58-.44zm-2.05-.09c-.25-1.24-1.15-2.3-2.38-2.57-.24-.08-.57.18-.65.45s.16.62.41.71c.74.18 1.39.8 1.56 1.68.08.27.33.53.66.44.24-.08.48-.35.4-.71zm-7.95 3.46c-.98.18-1.64 1.06-1.48 1.95s1.07 1.42 2.05 1.24 1.64-1.06 1.48-1.95c-.16-.97-1.07-1.51-2.05-1.24z"></path>
               </svg>
             </button>
-            <button className="bg-gray-500">
+            <button className="qqzone">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -89,11 +89,11 @@ const Footer = () => {
                 <path d="m7.94.01c-.81-.07-1.36.51-1.43 1.29s.36 1.46 1.17 1.53 5.97.83 7.17 6.17c.05-.26.09-.52.11-.78.39-4.16-2.75-7.84-7.02-8.21zm-2.77 7.95c-.2.53-.23 1.04-.07 1.13.11.06.28-.08.44-.35.06.3.22.56.45.78-.24.09-.39.25-.39.44 0 .3.42.54.93.54.46 0 .85-.2.92-.46h.11c.07.26.45.46.92.46.51 0 .93-.24.93-.54 0-.18-.15-.34-.39-.44.22-.22.38-.49.44-.78.16.27.33.41.44.35.16-.09.13-.6-.07-1.13-.16-.41-.37-.72-.53-.78 0-.03 0-.05 0-.08 0-.16-.04-.31-.11-.43 0-.01 0-.02 0-.03 0-.07-.02-.14-.04-.2-.03-1.08-.65-1.94-1.65-1.94s-1.62.86-1.66 1.94c-.03.06-.04.12-.04.2v.03c-.07.12-.11.27-.11.43v.08c-.15.06-.36.37-.52.78zm8.53 3.54c.45-.67.19-1.44-.46-1.88s-1.45-.37-1.9.3-3.58 4.85-8.84 3.36c.2.17.41.32.63.47 3.47 2.32 8.21 1.31 10.57-2.25zm-12.98-.55c.34.74 1.12.93 1.84.61.71-.32 1.09-1.04.75-1.77-.34-.74-2.23-5.61 1.82-9.29-.25.08-.49.18-.74.29-3.81 1.71-5.45 6.27-3.67 10.16z"></path>
               </svg>
             </button>
-            <button className="bg-white-900">
+            <button className="douban">
               <svg
-                className="undefined css-1emgvlg e10fsun60"
-                height="20"
-                width="20"
+                className="fill-emerald-800 hover:fill-black"
+                height="16"
+                width="16"
                 viewBox="0 0 15 15"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -105,7 +105,7 @@ const Footer = () => {
           </span>
         </li>
       </div>
-      <div className="grid grid-cols-4 gap-4 pt-14 pb-11 p-36 pl-16">
+      <div className="grid grid-cols-5 gap-4 pt-14 pb-11  pl-24 bg-gray-100 bg-opacity-50 z-10 h-svh">
         <section className="w-full h-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -126,185 +126,268 @@ const Footer = () => {
             </g>
           </svg>
         </section>
-        <div className="w-full h-full bg-gray-500	">
-          <ul className=" bg-pink-500 justify-center auto">
-            <ul>
-              <li className="bg-blue-500">
-                <a href="" className="text-white text-2xl">
-                  Relógios Rolex
-                </a>
-                <ul>
-                  <li className="text-base">
-                    <a href="">Novos Modelos 2024</a>
-                  </li>
-                  <li>
-                    <a href="">Encontre o seu Rolex</a>
-                  </li>
-                  <li>
-                    <a href="">Configure o seu Rolex</a>
-                  </li>
-                  <li>
-                    <a href="">Relógios masculinos</a>
-                  </li>
-                  <li>
-                    <a href="">Relógios femininos</a>
-                  </li>
-                  <li>
-                    <a href="">Relógios em ouro</a>
-                  </li>
-                </ul>
+        <ul className="bg-red-500 h-full w-full">
+          <li className="bg-blue-500">
+            <a href="" className="text-black text-2xl hover:text-emerald-800 font-family">
+              Relógios Rolex
+            </a>
+            <ul className="">
+              <li className="text-base">
+                <a href="">Novos Modelos 2024</a>
               </li>
-              <li className="bg-purple-500 gap-8 mt-4">
-                <a href="" className="text-white text-2xl">
-                  {" "}
-                  Coleção
+              <li>
+                <a href="" className="text-base">
+                  Encontre o seu Rolex
                 </a>
-                <ul>
-                  <li className="text-base">
-                    <a href="">Air-King</a>
-                  </li>
-                  <li>
-                    <a href="">Cosmograph Daytona</a>
-                  </li>
-                  <li>
-                    <a href="">Datejust</a>
-                  </li>
-                  <li>
-                    <a href="">Lady-Datejust</a>
-                  </li>
-                  <li>
-                    <a href="">Day-Date</a>
-                  </li>
-                  <li>
-                    <a href="">Explorer</a>
-                  </li>
-                  <li>
-                    <a href="">GMT-Master II</a>
-                  </li>
-                  <li>
-                    <a href="">Oyster Perpetual</a>
-                  </li>
-                  <li>
-                    <a href="">Sea-Dweller</a>
-                  </li>
-                  <li>
-                    <a href="">Deepsea</a>
-                  </li>
-                  <li>
-                    <a href="">Sky-Dweller</a>
-                  </li>
-                  <li>
-                    <a href="">Submariner</a>
-                  </li>
-                  <li>
-                    <a href="">Yacht-Master</a>
-                  </li>
-                  <li>
-                    <a href="">1908</a>
-                  </li>
-                </ul>
               </li>
-              <li className="bg-yellow-500 gap-8 mt-4">
-                <a href="" className="text-white text-2xl">
-                  A arte da relojoaria
+              <li>
+                <a href="" className="text-base">
+                  Configure o seu Rolex
                 </a>
-                <ul>
-                  <li>
-                    <a href="">No cerne da excelência</a>
-                  </li>
-                  <li>
-                    <a href="">Por trás do selo</a>
-                  </li>
-                  <li>
-                    <a href="">Anatomia de um Rolex</a>
-                  </li>
-                </ul>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Relógios masculinos
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Relógios femininos
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Relógios em ouro
+                </a>
               </li>
             </ul>
-          </ul>
-        </div>
+          </li>
+          <li className="bg-purple-500 gap-8 mt-4">
+            <a href="" className="text-black text-2xl hover:text-emerald-800">
+              {" "}
+              Coleção
+            </a>
+            <ul>
+              <li className="text-base">
+                <a href="">Air-King</a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Cosmograph Daytona
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Datejust
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Lady-Datejust
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Day-Date
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Explorer
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  GMT-Master II
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Oyster Perpetual
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Sea-Dweller
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Deepsea
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Sky-Dweller
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Submariner
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Yacht-Master
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  1908
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li className="bg-yellow-500 gap-8 mt-4">
+            <a href="" className="text-black text-2xl hover:text-emerald-800">
+              A arte da relojoaria
+            </a>
+            <ul>
+              <li>
+                <a href="" className="text-base">
+                  No cerne da excelência
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Por trás do selo
+                </a>
+              </li>
+              <li>
+                <a href="" className="text-base">
+                  Anatomia de um Rolex
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
         <ul>
           <li>
             <ul className="bg-pink-500">
               <li>
-                <a href="" className="text-white text-2xl">
+                <a
+                  href=""
+                  className="text-black text-2xl hover:text-emerald-800"
+                >
                   A Rolex e os esportes
                 </a>
               </li>
               <li>
-                <a href="">Tênis</a>
+                <a href="" className="text-base">
+                  Tênis
+                </a>
               </li>
               <li>
-                <a href="">Golfe</a>
+                <a href="" className="text-base">
+                  Golfe
+                </a>
               </li>
               <li>
-                <a href="">Iatismo</a>
+                <a href="" className="text-base">
+                  Iatismo
+                </a>
               </li>
               <li>
-                <a href="">Automobilismo</a>
+                <a href="" className="text-base">
+                  Automobilismo
+                </a>
               </li>
               <li>
-                <a href="">Hipismo</a>
+                <a href="" className="text-base">
+                  Hipismo
+                </a>
               </li>
             </ul>
           </li>
           <li>
             <ul className="bg-green-500 mt-4">
               <li>
-                <a href="" className="text-white text-2xl">
+                <a
+                  href=""
+                  className="text-black text-2xl hover:text-emerald-800"
+                >
                   Iniciativas Perpetual
                 </a>
               </li>
               <li>
-                <a href="">Iniciativa Perpetual Planet</a>
+                <a href="" className="text-base">
+                  Iniciativa Perpetual Planet
+                </a>
               </li>
               <li>
-                <a href="">Iniciativa Perpetual Arts</a>
+                <a href="" className="text-base">
+                  Iniciativa Perpetual Arts
+                </a>
               </li>
             </ul>
             <ul className="bg-orange-500 mt-4">
               <li>
-                <a href="" className="text-white text-2xl">
+                <a
+                  href=""
+                  className="text-black text-2xl hover:text-emerald-800"
+                >
                   Sobre a Rolex
                 </a>
               </li>
               <li>
-                <a>Desenvolvimento sustentável</a>
+                <a href="" className="text-base">
+                  Desenvolvimento sustentável
+                </a>
               </li>
               <li>
-                <a>Por trás da coroa</a>
+                <a href="" className="text-base">
+                  Por trás da coroa
+                </a>
               </li>
               <li>
-                <a>História</a>
+                <a href="" className="text-base">
+                  História
+                </a>
               </li>
             </ul>
             <ul className="bg-red-500 mt-4">
               <li>
-                <a href="" className="text-white text-2xl">
+                <a
+                  href=""
+                  className="text-black text-2xl hover:text-emerald-800"
+                >
                   A compra de um Rolex
                 </a>
               </li>
               <li>
-                <a>Distribuidores oficiais</a>
+                <a href="" className="text-base">
+                  Distribuidores oficiais
+                </a>
               </li>
               <li>
-                <a>A compra de um Rolex</a>
+                <a href="" className="text-base">
+                  A compra de um Rolex
+                </a>
               </li>
               <li>
-                <a>Rolex Certified Pre-Owned</a>
+                <a href="" className="text-base">
+                  Rolex Certified Pre-Owned
+                </a>
               </li>
             </ul>
             <ul className="bg-blue-500 mt-4">
               <li>
-                <a href="" className="text-white text-2xl">
+                <a
+                  href=""
+                  className="text-black text-2xl hover:text-emerald-800"
+                >
                   Cuidado e manutenção
                 </a>
               </li>
               <li>
-                <a>Centros de serviço</a>
+                <a href="" className="text-base">
+                  Centros de serviço
+                </a>
               </li>
               <li>
-                <a>Cuidado e manutenção</a>
+                <a href="" className="text-base">
+                  Cuidado e manutenção
+                </a>
               </li>
             </ul>
           </li>
@@ -312,96 +395,148 @@ const Footer = () => {
         <ul className="bg-violet-500">
           <li>
             <li>
-              <a href="" className="text-white text-2xl">
+              <a href="" className="text-black text-2xl hover:text-emerald-800">
                 Serviços
               </a>
             </li>
             <li>
-              <a href="">Perguntas frequentes</a>
+              <a href="" className="text-base">
+                Perguntas frequentes
+              </a>
             </li>
             <li>
-              <a href="">Seus favoritos</a>
+              <a href="" className="text-base">
+                Seus favoritos
+              </a>
             </li>
             <li>
-              <a href="">Submeter uma denúncia</a>
+              <a href="" className="text-base">
+                Submeter uma denúncia
+              </a>
             </li>
             <li>
-              <a href="">Newsroom</a>
+              <a href="" className="text-base">
+                Newsroom
+              </a>
             </li>
           </li>
           <ul className="bg-yellow-500 mt-4">
             <li>
-              <a href="" className="text-white text-2xl">
+              <a
+                href=""
+                className="text-black text-base hover:text-emerald-800 font-semibold"
+              >
                 Aviso legal
               </a>
               <li>
-                <a>Termos de uso</a>
+                <a href="" className="text-base">
+                  Termos de uso
+                </a>
               </li>
               <li>
-                <a>Políticas de privacidade</a>
+                <a href="" className="text-base">
+                  Políticas de privacidade
+                </a>
               </li>
               <li>
-                <a>Cookies</a>
+                <a href="" className="text-base">
+                  Cookies
+                </a>
               </li>
             </li>
           </ul>
           <ul className="bg-purple-500 mt-4">
             <li>
-              <a href="" className="text-white text-2xl">
+              <a
+                href=""
+                className="text-black text-base hover:text-emerald-800 font-semibold"
+              >
                 Acessibilidade
               </a>
               <li>
-                <a>Leia nossa declaração</a>
+                <a href="" className="text-base">
+                  Leia nossa declaração
+                </a>
               </li>
             </li>
           </ul>
           <ul className="bg-green-500 mt-4">
             <li>
-              <a href="" className="text-white text-2xl">
+              <a
+                href=""
+                className="text-black text-base hover:text-emerald-800 font-semibold"
+              >
                 Suportes de comunicação
               </a>
               <li>
-                <a>Wallpapers</a>
+                <a href="" className="text-base">
+                  Wallpapers
+                </a>
               </li>
               <li>
-                <a>Catálogos</a>
+                <a href="" className="text-base">
+                  Catálogos
+                </a>
               </li>
               <li>
-                <a>Guias do usuários</a>
+                <a href="" className="text-base">
+                  Guias do usuários
+                </a>
               </li>
             </li>
           </ul>
           <ul className="bg-orange-500 mt-4">
             <li>
-              <a href="" className="text-white text-2xl font-helvetica">
+              <a
+                href=""
+                className="text-black text-base hover:text-emerald-800 font-semibold"
+              >
                 Canais oficiais
               </a>
               <li>
-                <a>Facebook</a>
+                <a href="" className="text-base">
+                  Facebook
+                </a>
               </li>
               <li>
-                <a>Instagram</a>
+                <a href="" className="text-base">
+                  Instagram
+                </a>
               </li>
               <li>
-                <a>X</a>
+                <a href="" className="text-base">
+                  X
+                </a>
               </li>
               <li>
-                <a>Youtube</a>
+                <a href="" className="text-base">
+                  Youtube
+                </a>
               </li>
               <li>
-                <a>Pinterest</a>
+                <a href="" className="text-base">
+                  Pinterest
+                </a>
               </li>
               <li>
-                <a>Linkedin</a>
+                <a href="" className="text-base">
+                  Linkedin
+                </a>
               </li>
               <li>
-                <a>Youku</a>
+                <a href="" className="text-base">
+                  Youku
+                </a>
               </li>
               <li>
-                <a>Weibo</a>
+                <a href="" className="text-base">
+                  Weibo
+                </a>
               </li>
               <li>
-                <a>WeChat</a>
+                <a href="" className="text-base">
+                  WeChat
+                </a>
               </li>
             </li>
           </ul>

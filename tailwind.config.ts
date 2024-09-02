@@ -15,7 +15,16 @@ const config: Config = {
       },
     },
     fontFamily: {
-      helvetica: ["Helvetica Now Text", 'Helvetica', 'Arial', 'sans-serif'],
+      helveticaNow: ["helvetica", "sans-serif"],
+      sans: [
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+      ],
     },
   },
   plugins: [],

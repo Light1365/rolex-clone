@@ -1,8 +1,29 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ["latin"] });
+const helvetica = localFont({
+  src: [
+    {
+      path: "../public/fonts/HelveticaNowTextRegular_normal_normal.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/HelveticaNowTextLight_normal_normal.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/HelveticaNowTextBold_normal_normal.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +37,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} ${helvetica.className} ${inter.variable} --font-localFont`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
