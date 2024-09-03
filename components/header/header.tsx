@@ -1,6 +1,6 @@
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import Image from "next/image";
-import RolexLogo from "src/images/rolex-logo.png";
+import RolexLogo from ".public/images/rolex-logo.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineHeart } from "react-icons/hi";
 

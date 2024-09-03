@@ -37,5 +37,9 @@ body {
 }
 
 .text-base:hover {
-  color: #006039;
+  color: #006039; 
+}
+
+.mt-1:hover{
+  fill: #006039;
 }
